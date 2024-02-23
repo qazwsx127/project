@@ -277,6 +277,7 @@ main.hidden {
 .sidebar:hover::-webkit-scrollbar-track {
   background: rgba(136,136,136,0.1);
 }
+/*侧边栏隐藏和展开*/
 .sidebar-toggle {
   background-color: transparent;
   background-color: rgba(255,255,255,0.8);
@@ -295,6 +296,7 @@ main.hidden {
 .sidebar-toggle:hover .sidebar-toggle-button {
   opacity: 0.4;
 }
+/*侧边栏隐藏展开按钮的形状（三条横线)和颜色*/
 .sidebar-toggle span {
   background-color: #42b983;
   background-color: var(--theme-color, #42b983);
@@ -613,6 +615,7 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+/*当鼠标悬停在菜单栏目上时加下划线*/
 .sidebar ul li a:hover {
   text-decoration: underline;
 }
@@ -866,3 +869,5 @@ code .token {
   position: relative;
   left: auto;
 }
+
+

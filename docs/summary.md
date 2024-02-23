@@ -1,2 +1,6 @@
-* [目录转到readme](README.md)
-* [目录转到第二章](第二章.md)
+* [readme](README.md)
+* [第二章](NO.2.md)
+- 一级目录
+   - 二级目录1
+       - 三级目录1
+           - [文档](README.md)
