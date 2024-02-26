@@ -245,6 +245,9 @@ main.hidden {
 .sidebar li.collapse .app-sub-sidebar {
   display: none;
 }
+/*.sidebar-nav. {
+  display: none;
+}*/
 .sidebar ul {
   margin: 0 0 0 15px;
   padding: 0;
@@ -869,5 +872,9 @@ code .token {
   position: relative;
   left: auto;
 }
-
-
+ /* 可以调整mendable.ai按钮的位置，但弹出的窗口位置仍处于右下角*/
+ .position-overwrite {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
